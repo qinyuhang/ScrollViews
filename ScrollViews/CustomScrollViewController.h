@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  CustomScrollViewController.h
 //  ScrollViews
 //
 //  Created by Shubham Sorte on 13/01/15.
@@ -8,11 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController <UIScrollViewDelegate>
-
+@interface CustomScrollViewController : UIViewController <UIScrollViewDelegate>
 
 @property (nonatomic,strong) IBOutlet UIScrollView * scrollView;
 
-
 @end
-

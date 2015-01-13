@@ -14,6 +14,13 @@
 		A30141B91A64DE5B006C10C6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A30141B81A64DE5B006C10C6 /* Images.xcassets */; };
 		A30141BC1A64DE5B006C10C6 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A30141BA1A64DE5B006C10C6 /* LaunchScreen.xib */; };
 		A30141C81A64DE5B006C10C6 /* ScrollViewsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A30141C71A64DE5B006C10C6 /* ScrollViewsTests.m */; };
+		A30141D81A64E04D006C10C6 /* photo1.png in Resources */ = {isa = PBXBuildFile; fileRef = A30141D21A64E04D006C10C6 /* photo1.png */; };
+		A30141D91A64E04D006C10C6 /* photo2.png in Resources */ = {isa = PBXBuildFile; fileRef = A30141D31A64E04D006C10C6 /* photo2.png */; };
+		A30141DA1A64E04D006C10C6 /* photo3.png in Resources */ = {isa = PBXBuildFile; fileRef = A30141D41A64E04D006C10C6 /* photo3.png */; };
+		A30141DB1A64E04D006C10C6 /* photo4.png in Resources */ = {isa = PBXBuildFile; fileRef = A30141D51A64E04D006C10C6 /* photo4.png */; };
+		A30141DC1A64E04D006C10C6 /* photo5.png in Resources */ = {isa = PBXBuildFile; fileRef = A30141D61A64E04D006C10C6 /* photo5.png */; };
+		A30141DD1A64E04D006C10C6 /* slow.png in Resources */ = {isa = PBXBuildFile; fileRef = A30141D71A64E04D006C10C6 /* slow.png */; };
+		A3C111411A6554BB00146979 /* CustomScrollViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A3C111401A6554BB00146979 /* CustomScrollViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +47,14 @@
 		A30141C11A64DE5B006C10C6 /* ScrollViewsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScrollViewsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A30141C61A64DE5B006C10C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A30141C71A64DE5B006C10C6 /* ScrollViewsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScrollViewsTests.m; sourceTree = "<group>"; };
+		A30141D21A64E04D006C10C6 /* photo1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = photo1.png; sourceTree = "<group>"; };
+		A30141D31A64E04D006C10C6 /* photo2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = photo2.png; sourceTree = "<group>"; };
+		A30141D41A64E04D006C10C6 /* photo3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = photo3.png; sourceTree = "<group>"; };
+		A30141D51A64E04D006C10C6 /* photo4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = photo4.png; sourceTree = "<group>"; };
+		A30141D61A64E04D006C10C6 /* photo5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = photo5.png; sourceTree = "<group>"; };
+		A30141D71A64E04D006C10C6 /* slow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = slow.png; sourceTree = "<group>"; };
+		A3C1113F1A6554BB00146979 /* CustomScrollViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomScrollViewController.h; sourceTree = "<group>"; };
+		A3C111401A6554BB00146979 /* CustomScrollViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomScrollViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +78,7 @@
 		A301419F1A64DE5B006C10C6 = {
 			isa = PBXGroup;
 			children = (
+				A30141D11A64E04D006C10C6 /* ScrollViewsResources */,
 				A30141AA1A64DE5B006C10C6 /* ScrollViews */,
 				A30141C41A64DE5B006C10C6 /* ScrollViewsTests */,
 				A30141A91A64DE5B006C10C6 /* Products */,
@@ -85,6 +101,8 @@
 				A30141B01A64DE5B006C10C6 /* AppDelegate.m */,
 				A30141B21A64DE5B006C10C6 /* ViewController.h */,
 				A30141B31A64DE5B006C10C6 /* ViewController.m */,
+				A3C1113F1A6554BB00146979 /* CustomScrollViewController.h */,
+				A3C111401A6554BB00146979 /* CustomScrollViewController.m */,
 				A30141B51A64DE5B006C10C6 /* Main.storyboard */,
 				A30141B81A64DE5B006C10C6 /* Images.xcassets */,
 				A30141BA1A64DE5B006C10C6 /* LaunchScreen.xib */,
@@ -117,6 +135,19 @@
 				A30141C61A64DE5B006C10C6 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A30141D11A64E04D006C10C6 /* ScrollViewsResources */ = {
+			isa = PBXGroup;
+			children = (
+				A30141D21A64E04D006C10C6 /* photo1.png */,
+				A30141D31A64E04D006C10C6 /* photo2.png */,
+				A30141D41A64E04D006C10C6 /* photo3.png */,
+				A30141D51A64E04D006C10C6 /* photo4.png */,
+				A30141D61A64E04D006C10C6 /* photo5.png */,
+				A30141D71A64E04D006C10C6 /* slow.png */,
+			);
+			path = ScrollViewsResources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,8 +230,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A30141DB1A64E04D006C10C6 /* photo4.png in Resources */,
+				A30141D91A64E04D006C10C6 /* photo2.png in Resources */,
+				A30141DD1A64E04D006C10C6 /* slow.png in Resources */,
+				A30141D81A64E04D006C10C6 /* photo1.png in Resources */,
 				A30141B71A64DE5B006C10C6 /* Main.storyboard in Resources */,
+				A30141DC1A64E04D006C10C6 /* photo5.png in Resources */,
 				A30141BC1A64DE5B006C10C6 /* LaunchScreen.xib in Resources */,
+				A30141DA1A64E04D006C10C6 /* photo3.png in Resources */,
 				A30141B91A64DE5B006C10C6 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -219,6 +256,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A3C111411A6554BB00146979 /* CustomScrollViewController.m in Sources */,
 				A30141B41A64DE5B006C10C6 /* ViewController.m in Sources */,
 				A30141B11A64DE5B006C10C6 /* AppDelegate.m in Sources */,
 				A30141AE1A64DE5B006C10C6 /* main.m in Sources */,
@@ -412,6 +450,7 @@
 				A30141CD1A64DE5B006C10C6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A30141CE1A64DE5B006C10C6 /* Build configuration list for PBXNativeTarget "ScrollViewsTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +459,7 @@
 				A30141D01A64DE5B006C10C6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
