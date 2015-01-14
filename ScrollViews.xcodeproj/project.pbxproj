@@ -20,6 +20,9 @@
 		A30141DB1A64E04D006C10C6 /* photo4.png in Resources */ = {isa = PBXBuildFile; fileRef = A30141D51A64E04D006C10C6 /* photo4.png */; };
 		A30141DC1A64E04D006C10C6 /* photo5.png in Resources */ = {isa = PBXBuildFile; fileRef = A30141D61A64E04D006C10C6 /* photo5.png */; };
 		A30141DD1A64E04D006C10C6 /* slow.png in Resources */ = {isa = PBXBuildFile; fileRef = A30141D71A64E04D006C10C6 /* slow.png */; };
+		A3289F221A669E0F00137D32 /* PagedScrollViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A3289F211A669E0F00137D32 /* PagedScrollViewController.m */; };
+		A3289F251A66A5DC00137D32 /* PeekPagedScrollViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A3289F241A66A5DC00137D32 /* PeekPagedScrollViewController.m */; };
+		A3289F281A66A9D300137D32 /* ScrollViewContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = A3289F271A66A9D300137D32 /* ScrollViewContainer.m */; };
 		A3C111411A6554BB00146979 /* CustomScrollViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A3C111401A6554BB00146979 /* CustomScrollViewController.m */; };
 /* End PBXBuildFile section */
 
@@ -53,6 +56,12 @@
 		A30141D51A64E04D006C10C6 /* photo4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = photo4.png; sourceTree = "<group>"; };
 		A30141D61A64E04D006C10C6 /* photo5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = photo5.png; sourceTree = "<group>"; };
 		A30141D71A64E04D006C10C6 /* slow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = slow.png; sourceTree = "<group>"; };
+		A3289F201A669E0F00137D32 /* PagedScrollViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PagedScrollViewController.h; sourceTree = "<group>"; };
+		A3289F211A669E0F00137D32 /* PagedScrollViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PagedScrollViewController.m; sourceTree = "<group>"; };
+		A3289F231A66A5DC00137D32 /* PeekPagedScrollViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PeekPagedScrollViewController.h; sourceTree = "<group>"; };
+		A3289F241A66A5DC00137D32 /* PeekPagedScrollViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PeekPagedScrollViewController.m; sourceTree = "<group>"; };
+		A3289F261A66A9D300137D32 /* ScrollViewContainer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScrollViewContainer.h; sourceTree = "<group>"; };
+		A3289F271A66A9D300137D32 /* ScrollViewContainer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScrollViewContainer.m; sourceTree = "<group>"; };
 		A3C1113F1A6554BB00146979 /* CustomScrollViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomScrollViewController.h; sourceTree = "<group>"; };
 		A3C111401A6554BB00146979 /* CustomScrollViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomScrollViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -103,7 +112,13 @@
 				A30141B31A64DE5B006C10C6 /* ViewController.m */,
 				A3C1113F1A6554BB00146979 /* CustomScrollViewController.h */,
 				A3C111401A6554BB00146979 /* CustomScrollViewController.m */,
+				A3289F201A669E0F00137D32 /* PagedScrollViewController.h */,
+				A3289F211A669E0F00137D32 /* PagedScrollViewController.m */,
+				A3289F231A66A5DC00137D32 /* PeekPagedScrollViewController.h */,
+				A3289F241A66A5DC00137D32 /* PeekPagedScrollViewController.m */,
 				A30141B51A64DE5B006C10C6 /* Main.storyboard */,
+				A3289F261A66A9D300137D32 /* ScrollViewContainer.h */,
+				A3289F271A66A9D300137D32 /* ScrollViewContainer.m */,
 				A30141B81A64DE5B006C10C6 /* Images.xcassets */,
 				A30141BA1A64DE5B006C10C6 /* LaunchScreen.xib */,
 				A30141AB1A64DE5B006C10C6 /* Supporting Files */,
@@ -256,9 +271,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A3289F221A669E0F00137D32 /* PagedScrollViewController.m in Sources */,
 				A3C111411A6554BB00146979 /* CustomScrollViewController.m in Sources */,
+				A3289F281A66A9D300137D32 /* ScrollViewContainer.m in Sources */,
 				A30141B41A64DE5B006C10C6 /* ViewController.m in Sources */,
 				A30141B11A64DE5B006C10C6 /* AppDelegate.m in Sources */,
+				A3289F251A66A5DC00137D32 /* PeekPagedScrollViewController.m in Sources */,
 				A30141AE1A64DE5B006C10C6 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -382,6 +400,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ScrollViews/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -392,6 +411,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ScrollViews/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
